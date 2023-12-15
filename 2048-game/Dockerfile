@@ -1,5 +1,5 @@
 # Используем базовый образ с Node.js
-FROM node
+FROM node:18
 
 # Создаем рабочую директорию
 WORKDIR /app
